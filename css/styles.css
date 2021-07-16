@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    color: hsl(0, 0%, 99%);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    text-shadow: 2px 1px 2px hsl(300, 70%, 87%);
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg,hsl(172, 69%, 68%), rgba(169, 168, 235, 0.897) 90%, hsl(237, 43%, 75%))
+}
+
+.paint-table{
+    background-color: hsl(0, 0%, 100%);
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px hsl(221, 67%, 40%);
+    border-radius: 1%;
+    height: 500px;
+    width: 500px;    
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    
+      
+    
+}
+
+
+.change-form-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+
+
+}
+
+.input-div{
+    background-color: white;
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    box-shadow: 1px 1px 5px hsl(209, 67%, 40%);
+    margin-right: 10px;
+    
+}
+
+input{
+    border:transparent;
+    outline:none;
+    width:90%;
+    height: 50px;
+    width: 90%;
+    
+}
+
+
+
+button{
+    color:rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: rgb(238, 237, 208);
+    border:1px solid hsl(120, 0%, 48%);
+    border-radius: 4%;
+    box-shadow: 1px 0px 2px rgb(97, 97, 97);
+    transition: 0.05s ease-out;
+   
+}
+
+
+button:hover{
+    background-color: rgb(231, 83, 78);
+    color:rgb(255, 255, 255);
+}
+
+
+button:active{
+    box-shadow: 0px 0px 0px rgb(97, 97, 97);
+}
+
+.footer-buttons{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
